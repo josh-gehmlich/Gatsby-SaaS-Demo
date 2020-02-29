@@ -1,18 +1,17 @@
 import React from "react";
 
 export default function () {
-  require('../typeform');
   return (
-    <div
-      className="typeform-widget"
-      data-url="https://elliotbonneville1.typeform.com/to/H0zlqT"
-      data-transparency="50"
-      data-hide-headers={"true"}
-      data-hide-footer={"true"}
-      style={{
-        width: "100%",
-        height: "500px"
-      }}
-    />
+    <form name="contact" method="POST" data-netlify="true">
+      <p>
+        <label>Your Name: <input type="text" name="name" /></label>
+      </p>
+      <p>
+        <label>Your Email: <input type="email" name="email" /></label>
+      </p>
+      <p>
+        <button type="submit">Send</button>
+      </p>
+    </form>
   )
 }
