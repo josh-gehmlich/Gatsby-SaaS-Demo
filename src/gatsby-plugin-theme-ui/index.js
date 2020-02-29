@@ -24,6 +24,7 @@ export default {
   styles: {
     root: {
       fontFamily: 'body',
+      '-webkit-font-smoothing': 'antialiased',
       margin: 0,
       padding: 0,
     },
@@ -31,6 +32,7 @@ export default {
   text: {
     body: {
       fontSize: 24,
+      fontWeight: 'unset',
     }
   }
 };
