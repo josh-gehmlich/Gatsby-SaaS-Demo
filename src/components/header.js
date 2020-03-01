@@ -7,7 +7,6 @@ import PropTypes from "prop-types"
 const Header = ({ siteTitle }) => (
   <header
     sx={{
-      marginBottom: `1.45rem`,
       display: 'flex',
       justifyContent: 'center',
       padding: [3, 4],

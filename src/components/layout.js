@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
       <Box
         sx={{
           margin: `0 auto`,
-          maxWidth: 960,
+          maxWidth: 840,
           padding: 4,
           flex: 1,
         }}
@@ -37,7 +37,7 @@ const Layout = ({ children }) => {
       </Box>
       <Box sx={{
         margin: `0 auto`,
-        maxWidth: 960,
+        maxWidth: 840,
         padding: 4,
         display: 'flex',
         flexDirection: 'row',

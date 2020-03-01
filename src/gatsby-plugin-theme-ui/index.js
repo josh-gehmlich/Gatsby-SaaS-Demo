@@ -31,8 +31,14 @@ export default {
   },
   text: {
     body: {
-      fontSize: 24,
-      fontWeight: 'unset',
+      fontSize: 20,
+      lineHeight: 'body',
+    },
+  },
+  buttons: {
+    primary: {
+      background: 'black',
+      cursor: 'pointer',
     }
-  }
+  },
 };
