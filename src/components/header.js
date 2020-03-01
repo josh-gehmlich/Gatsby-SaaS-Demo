@@ -1,7 +1,6 @@
 /** @jsx jsx */
 import React from "react"
 import { jsx, Heading } from 'theme-ui';
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 
 const Header = ({ siteTitle }) => (

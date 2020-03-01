@@ -5,6 +5,7 @@ import { jsx, Text, Input, Button, Box } from 'theme-ui';
 export default function () {
   return (
     <form name="contact" method="POST" data-netlify="true" sx={{ mt: 3 }}>
+      <input type="hidden" name="form-name" value="contact" />
       <Text variant="body">
         <label>
           <strong>Your Name:</strong>
