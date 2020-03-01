@@ -66,7 +66,7 @@ const IndexPage = () => (
     </Text>
     <Heading as="h2" sx={{ mt: 4 }} id="sign-up">Join Us</Heading>
     <Text variant='body' sx={{ mt: 2 }}>
-      Sign up below to get instant access to our Slack. You'll also get an invite to my mailing list, but don't worry – you can just ignore that (also, I don't send you 💩 emails).
+      Sign up below to get instant access to our Slack. You'll also get an invite to the mailing list, but don't worry – you can just ignore that (also, I don't send you 💩 emails).
     </Text>
     <Form />
   </Layout >
