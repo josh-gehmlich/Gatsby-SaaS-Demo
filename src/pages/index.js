@@ -41,7 +41,7 @@ const IndexPage = () => (
       I was planning for a <Link href="https://itch.io/jam/7drl-challenge-2020">week-long game jam</Link>, and realized I'd rather spend the time building a software startup and working towards achieving financial independence.
     </Text>
     <Text variant="body" sx={{ mt: 2 }}>
-      As developers, the biggest challenge we face is figuring out how to avoid spending all our time coding. Software is only 10% of what constitutes a successful SaaS, and the rest lies in finding a good problem, determining product-market fit, sales, and all of the other not-so-fun stuff that we like to pretend doesn't have to happen.
+      As developers, the biggest challenge we face is figuring out how to avoid spending all of our time coding. Software is only 10% of what constitutes a successful SaaS, and the rest lies in finding a good problem, determining product-market fit, sales, and all of the other not-so-fun stuff that we like to pretend doesn't have to happen.
     </Text>
     <Text variant="body" sx={{ mt: 2 }}>
       But it does have to happen. And I wanted a community to hold me accountable to only spending a week building my MVP, so that after doing the "fun stuff," I could be freed up to focus on what <i>really</i> mattered.
