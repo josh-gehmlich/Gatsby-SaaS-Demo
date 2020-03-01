@@ -10,7 +10,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Text variant="body">
-      From <strong>March 8th</strong> to <strong>March 15th, 2020</strong>, join me and the rest of the entrepreneurial developers in this community in building a minimum viable product for your next software-as-a-service idea.
+      From <strong>March 8th</strong> to <strong>March 15th, 2020</strong>, join me and the other entrepreneurial developers in this community in building a minimum viable product for your next software-as-a-service idea.
     </Text>
     <Box
       sx={{
