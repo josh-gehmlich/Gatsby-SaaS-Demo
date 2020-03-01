@@ -10,18 +10,11 @@ const Header = ({ siteTitle }) => (
       display: 'flex',
       justifyContent: 'center',
       padding: [3, 4],
+      background: 'black',
     }}
   >
-    <Heading as='h1'>
-      <Link
-        to="/"
-        style={{
-          color: 'black',
-          textDecoration: `none`,
-        }}
-      >
-        {siteTitle}
-      </Link>
+    <Heading as='h1' sx={{ color: 'white' }}>
+      {siteTitle}
     </Heading>
   </header>
 )

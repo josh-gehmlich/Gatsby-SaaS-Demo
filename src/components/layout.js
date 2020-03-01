@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import React from "react"
-import { jsx, Box } from 'theme-ui';
+import { jsx, Box, Text } from 'theme-ui';
 
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
@@ -36,15 +36,20 @@ const Layout = ({ children }) => {
         <main>{children}</main>
       </Box>
       <Box sx={{
-        margin: `0 auto`,
-        maxWidth: 840,
         padding: 4,
         display: 'flex',
         flexDirection: 'row',
         justifyContent: 'flex-end',
+        background: 'black',
       }}>
-        <footer>
-          © {new Date().getFullYear()}, Elliot Bonneville
+        <footer sx={{
+          margin: `0 auto`,
+          maxWidth: 840,
+          background: 'black',
+        }}>
+          <Text variant="body" sx={{ color: 'white' }}>
+            © {new Date().getFullYear()}, Elliot Bonneville
+          </Text>
         </footer>
       </Box>
     </Box>
