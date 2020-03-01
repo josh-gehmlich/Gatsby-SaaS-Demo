@@ -31,7 +31,7 @@ const IndexPage = () => (
       The 7DSaaS challenge is a software development jam designed to help you, an <i>entrepreneurially minded full-stack web developer</i>, to build a fully-functional MVP for your next SaaS idea within a seven day period.
     </Text>
     <Text variant="body" sx={{ mt: 2 }}>
-      If you're serious about launching a successful SaaS, you should validate your current problem + solution hypothesis as quickly as possible, so you can either start making a profit or move on to the next product.
+      If you're serious about launching a successful SaaS, you should validate your current problem + solution hypothesis as quickly as possible, so you can either start making a profit or discard it and move on to the next product.
     </Text>
     <Text variant="body" sx={{ mt: 2 }}>
       This challenge will help you do just that.
