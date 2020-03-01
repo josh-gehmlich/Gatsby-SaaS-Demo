@@ -8,13 +8,13 @@ export default function () {
       <Text variant="body">
         <label>
           <strong>Your Name:</strong>
-          <Input sx={{ mt: 3 }} type="text" name="name" placeholder="Steve Jobs" />
+          <Input sx={{ mt: 2 }} type="text" name="name" placeholder="Steve Jobs" />
         </label>
       </Text>
       <Text variant="body" sx={{ mt: 3 }}>
         <label>
           <strong>Your Email:</strong>
-          <Input sx={{ mt: 3 }} type="email" name="email" placeholder="steve@apple.com" />
+          <Input sx={{ mt: 2 }} type="email" name="email" placeholder="steve@apple.com" />
         </label>
       </Text>
       <Button type="submit" sx={{ mt: 3, float: 'right' }}>

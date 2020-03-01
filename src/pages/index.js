@@ -38,7 +38,7 @@ const IndexPage = () => (
     </Text>
     <Heading as="h2" sx={{ mt: 4 }}>Why is this a thing?</Heading>
     <Text variant="body" sx={{ mt: 2 }}>
-      I was planning for a <Link href="https://itch.io/jam/7drl-challenge-2020">week-long game jam</Link>, and realized I'd rather spend the time building a product.
+      I was planning for a <Link href="https://itch.io/jam/7drl-challenge-2020">week-long game jam</Link>, and realized I'd rather spend the time building a product and working towards financial independence.
     </Text>
     <Text variant="body" sx={{ mt: 2 }}>
       As developers, the biggest challenge facing us is figuring out how to avoid spending all of our time coding. Software is only 10% of what constitutes a successful SaaS, and the rest lies in finding a good problem, determining product-market fit, sales, and all of the other not-so-fun stuff that we like to pretend doesn't have to happen.
@@ -66,7 +66,7 @@ const IndexPage = () => (
     </Text>
     <Heading as="h2" sx={{ mt: 4 }} id="sign-up">Join Us</Heading>
     <Text variant='body' sx={{ mt: 2 }}>
-      Sign up below to get instant access to our Slack. You'll also get an invite to my mailing list, but don't worry – you can just ignore that. Also, I don't send you 💩 emails.
+      Sign up below to get instant access to our Slack. You'll also get an invite to my mailing list, but don't worry – you can just ignore that (also, I don't send you 💩 emails).
     </Text>
     <Form />
   </Layout >
