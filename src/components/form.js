@@ -6,12 +6,22 @@ export default function () {
   return (
     <form name="contact" method="POST" data-netlify="true" sx={{ mt: 3 }}>
       <Text variant="body">
-        <label>Your Name: <Input sx={{ mt: 3 }} type="text" name="name" /></label>
+        <label>
+          <strong>Your Name:</strong>
+          <Input sx={{ mt: 3 }} type="text" name="name" placeholder="Steve Jobs" />
+        </label>
       </Text>
       <Text variant="body" sx={{ mt: 3 }}>
-        <label>Your Email: <Input sx={{ mt: 3 }} type="email" name="email" /></label>
+        <label>
+          <strong>Your Email:</strong>
+          <Input sx={{ mt: 3 }} type="email" name="email" placeholder="steve@apple.com" />
+        </label>
       </Text>
-      <Button type="submit" sx={{ mt: 3, float: 'right' }}><Text variant="body">Join Now</Text></Button>
+      <Button type="submit" sx={{ mt: 3, float: 'right' }}>
+        <Text variant="body">
+          Join Now
+        </Text>
+      </Button>
     </form>
   )
 }
