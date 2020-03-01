@@ -28,23 +28,23 @@ const IndexPage = () => (
     </Box>
     <Heading as="h2" sx={{ mt: 4 }}>What is the Seven Day SaaS challenge?</Heading>
     <Text variant="body" sx={{ mt: 2 }}>
-      The 7DSaaS challenge is a software development jam designed to help you, an <i>entrepreneurially minded full-stack web developer</i>, build a fully-functional MVP for your next SaaS idea in a seven day period.
+      The 7DSaaS challenge is a software development jam designed to help you, an <i>entrepreneurially minded full-stack web developer</i>, to build a fully-functional MVP for your next SaaS idea within a seven day period.
     </Text>
     <Text variant="body" sx={{ mt: 2 }}>
-      If you're serious about launching a successful SaaS, you should validate your current problem + solution as quickly as possible, so you can either start making a profit or move on to the next product.
+      If you're serious about launching a successful SaaS, you should validate your current problem + solution hypothesis as quickly as possible, so you can either start making a profit or move on to the next product.
     </Text>
     <Text variant="body" sx={{ mt: 2 }}>
-      This challenge is designed to help you do just that.
+      This challenge will help you do just that.
     </Text>
     <Heading as="h2" sx={{ mt: 4 }}>Why is this a thing?</Heading>
     <Text variant="body" sx={{ mt: 2 }}>
-      I was planning for a <Link href="https://itch.io/jam/7drl-challenge-2020">week-long game jam</Link>, and realized I'd rather spend the time building a product and working towards financial independence.
+      I was planning for a <Link href="https://itch.io/jam/7drl-challenge-2020">week-long game jam</Link>, and realized I'd rather spend the time building a software startup and working towards achieving financial independence.
     </Text>
     <Text variant="body" sx={{ mt: 2 }}>
-      As developers, the biggest challenge facing us is figuring out how to avoid spending all of our time coding. Software is only 10% of what constitutes a successful SaaS, and the rest lies in finding a good problem, determining product-market fit, sales, and all of the other not-so-fun stuff that we like to pretend doesn't have to happen.
+      As developers, the biggest challenge we face is figuring out how to avoid spending all our time coding. Software is only 10% of what constitutes a successful SaaS, and the rest lies in finding a good problem, determining product-market fit, sales, and all of the other not-so-fun stuff that we like to pretend doesn't have to happen.
     </Text>
     <Text variant="body" sx={{ mt: 2 }}>
-      But it does have to happen. And I wanted a community to hold me accountable to spending no longer than a week building my MVP, so that after doing the "fun stuff", I could be freed up to focus on what <i>really</i> mattered.
+      But it does have to happen. And I wanted a community to hold me accountable to only spending a week building my MVP, so that after doing the "fun stuff," I could be freed up to focus on what <i>really</i> mattered.
     </Text>
     <Text variant="body" sx={{ mt: 2 }}>
       So... welcome to 7DSaaS – a jam for building a <strong>profitable software product</strong>.
@@ -55,10 +55,6 @@ const IndexPage = () => (
     </Text>
     <Text variant="body" sx={{ mt: 2 }}>
       I also run a <Link href="https://meetup.com/react-ri">React meetup in Rhode Island</Link>, where I <Link href="https://www.youtube.com/channel/UCZQUVwy120wwA3hSnRiawiw?view_as=subscriber">speak regularly</Link>.
-    </Text>
-    <Heading as="h2" sx={{ mt: 4 }}>Do you want money?</Heading>
-    <Text variant='body' sx={{ mt: 2 }}>
-      Heck no. I can't afford to pay for something like this right now – I'm trying to bootstrap a SaaS here! It's only reasonable to expect that's the case for you, too. So, the challenge is completely free to join.
     </Text>
     <Heading as="h2" sx={{ mt: 4 }}>March 8th is too soon. What's the schedule?</Heading>
     <Text variant="body" sx={{ mt: 2 }}>
