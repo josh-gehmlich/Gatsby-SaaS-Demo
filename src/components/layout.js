@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import React from "react"
-import { jsx, Box, Text } from 'theme-ui';
+import { jsx, Box, Text, Link } from 'theme-ui';
 
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
@@ -48,7 +48,7 @@ const Layout = ({ children }) => {
           background: 'black',
         }}>
           <Text variant="body" sx={{ color: 'white' }}>
-            © {new Date().getFullYear()}, Elliot Bonneville
+            © {new Date().getFullYear()}, <Link sx={{ color: 'white' }} href="https://elliotbonneville.com">Elliot Bonneville</Link>
           </Text>
         </footer>
       </Box>

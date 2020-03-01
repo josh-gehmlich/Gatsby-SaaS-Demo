@@ -39,6 +39,9 @@ export default {
     primary: {
       background: 'black',
       cursor: 'pointer',
+      '&:hover': {
+        background: 'gray',
+      }
     }
   },
 };
