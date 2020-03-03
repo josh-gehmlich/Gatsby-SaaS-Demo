@@ -4,7 +4,7 @@ import { Link, Button, Heading, Box, Text } from "theme-ui"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const SecondPage = () => (
+const Welcome = () => (
   <Layout>
     <SEO title="Welcome" />
     <Heading as="h2">Welcome to the 7 Day SaaS challenge</Heading>
@@ -80,7 +80,7 @@ const SecondPage = () => (
       </li>
     </ul>
     <Text variant="body" sx={{ mt: 2 }}>
-      I've also put together some additional resources for you to go over while you're in the planning phase. You can find them <Link href="/resources">here</Link>.
+      I've also put together some additional resources for you to go over while you're in the planning phase. You can find them <Link href="/resources" target="_blank">here</Link>.
     </Text>
     <Box sx={{
       mt: 4,
@@ -92,4 +92,4 @@ const SecondPage = () => (
   </Layout>
 )
 
-export default SecondPage
+export default Welcome
