@@ -10,7 +10,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Text variant="body">
-      From <strong>March 8th</strong> to <strong>March 15th, 2020</strong>, join me and the other entrepreneurial developers in this community in building a minimum viable product for your next software-as-a-service idea.
+      From <strong>March 20th</strong> to <strong>March 29th, 2020</strong>, join me and the other entrepreneurial developers in this community in building a minimum viable product for your next software-as-a-service idea.
     </Text>
     <Box
       sx={{
@@ -62,7 +62,7 @@ const IndexPage = () => (
     </Text>
     <Heading as="h2" sx={{ mt: 4 }} id="sign-up">Join Us</Heading>
     <Text variant='body' sx={{ mt: 2 }}>
-      Sign up below to get instant access to our Slack. You'll also get an invite to the mailing list, but don't worry – you can just ignore that (also, I don't send you 💩 emails).
+      Sign up below to get instant access to our Slack and become a part of our community. You'll also get an invite to the mailing list, but don't worry – you can just ignore that (also, I don't send you 💩 emails).
     </Text>
     <Form />
   </Layout >

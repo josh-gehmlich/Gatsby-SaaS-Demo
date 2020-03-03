@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import React from "react"
-import { jsx, Heading } from 'theme-ui';
+import { jsx, Heading, Link } from 'theme-ui';
 import PropTypes from "prop-types"
 
 const Header = ({ siteTitle }) => (
