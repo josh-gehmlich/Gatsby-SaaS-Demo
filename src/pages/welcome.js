@@ -12,7 +12,7 @@ const Welcome = () => (
       Thanks for joining! It's great to have you with us. Check your inbox – you should be getting a welcome email any minute. 🙂 (For future reference, the resources on this page can be found in that email as well.)
     </Text>
     <Text variant="body" sx={{ mt: 2 }}>
-      To kickstart your planning, just click the button to add this event to your calendar.
+      To kickstart your planning, just click the button below to add this event to your calendar.
     </Text>
     <Box sx={{
       display: 'flex',
