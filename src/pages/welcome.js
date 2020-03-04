@@ -12,7 +12,7 @@ const Welcome = () => (
       Thanks for joining! It's great to have you with us. Check your inbox – you should be getting a welcome email any minute. 🙂 (For future reference, the resources on this page can be found in that email as well.)
     </Text>
     <Text variant="body" sx={{ mt: 2 }}>
-      To kickstart your planning, one click of the button below will add this event to your calendar.
+      To kickstart your planning, just click the button to add this event to your calendar.
     </Text>
     <Box sx={{
       display: 'flex',
@@ -38,7 +38,7 @@ const Welcome = () => (
       justifyContent: 'center',
       mt: 3,
     }}>
-      <Link href="https://join.slack.com/t/sevendaysaas/shared_invite/enQtOTc3NzcxNDY2ODcwLTc0ZTBhNWJiMjVlOGU1YTk2ZDEzNjc5NjA2NTJjNDcyZDIwZmNlMWJiYWI5M2IyYmVmM2EwMGI0ZDQzNDY5OGI">
+      <Link target="_blank" href="https://join.slack.com/t/sevendaysaas/shared_invite/enQtOTc3NzcxNDY2ODcwLTc0ZTBhNWJiMjVlOGU1YTk2ZDEzNjc5NjA2NTJjNDcyZDIwZmNlMWJiYWI5M2IyYmVmM2EwMGI0ZDQzNDY5OGI">
         <Button>
           <Text variant="body">
             Join Slack
