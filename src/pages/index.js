@@ -60,7 +60,7 @@ const IndexPage = () => (
     <Text variant="body" sx={{ mt: 2 }}>
       I also run a <Link href="https://meetup.com/react-ri">React meetup in Rhode Island</Link>, where I <Link href="https://www.youtube.com/channel/UCZQUVwy120wwA3hSnRiawiw?view_as=subscriber">speak regularly</Link>.
     </Text>
-    <Heading as="h2" sx={{ mt: 4 }} id="sign-up">Join Us</Heading>
+    <Heading as="h2" sx={{ mt: 4 }} id="sign-up">Join us</Heading>
     <Text variant='body' sx={{ mt: 2 }}>
       Sign up below to get instant access to our Slack and become a part of our community. You'll also get an invite to the mailing list, but don't worry – you can just ignore that (also, I don't send you 💩 emails).
     </Text>
