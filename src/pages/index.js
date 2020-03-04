@@ -38,7 +38,7 @@ const IndexPage = () => (
     </Text>
     <Heading as="h2" sx={{ mt: 4 }}>Why is this a thing?</Heading>
     <Text variant="body" sx={{ mt: 2 }}>
-      I was planning for a <Link href="https://itch.io/jam/7drl-challenge-2020">week-long game jam</Link>, and realized I'd rather spend the time building a software startup and working towards achieving financial independence.
+      I was planning for a <Link href="https://itch.io/jam/7drl-challenge-2020">week-long game jam</Link>, and realized I'd rather spend the time building a software startup and working towards financial independence.
     </Text>
     <Text variant="body" sx={{ mt: 2 }}>
       As developers, the biggest challenge we face is figuring out how to avoid spending all of our time coding. Software is only 10% of what constitutes a successful SaaS, and the rest lies in finding a good problem, determining product-market fit, sales, and all of the other not-so-fun stuff that we like to pretend doesn't have to happen.
@@ -49,16 +49,16 @@ const IndexPage = () => (
     <Text variant="body" sx={{ mt: 2 }}>
       So... welcome to 7DSaaS – a jam for building a <strong>profitable software product</strong>.
     </Text>
+    <Heading as="h2" sx={{ mt: 4 }}>But the 20th to the 29th is nine days!</Heading>
+    <Text variant="body" sx={{ mt: 2 }}>
+      Yep, you read that right. You get to pick the seven-day stretch that works best for you within those nine days. But you have to stick to those seven days – scout's honor.
+    </Text>
     <Heading as="h2" sx={{ mt: 4 }}>Who are you, anyway?</Heading>
     <Text variant="body" sx={{ mt: 2 }}>
       Glad you asked! I'm a <Link href="https://elliotbonneville.com/">full-stack software developer and startup consultant</Link> based in Providence, RI. I've launched three non-software-related startups, and now I'm focusing on leveraging my developer skills to build a profitable SaaS.
     </Text>
     <Text variant="body" sx={{ mt: 2 }}>
       I also run a <Link href="https://meetup.com/react-ri">React meetup in Rhode Island</Link>, where I <Link href="https://www.youtube.com/channel/UCZQUVwy120wwA3hSnRiawiw?view_as=subscriber">speak regularly</Link>.
-    </Text>
-    <Heading as="h2" sx={{ mt: 4 }}>March 8th is too soon. What's the schedule?</Heading>
-    <Text variant="body" sx={{ mt: 2 }}>
-      I'm planning a jam every quarter, so if you can't make this jam, the next one is coming up soon – feel free to sign up below to stay updated on that. Besides, even if you can't participate, it's always fun to watch other people work – you might learn something!
     </Text>
     <Heading as="h2" sx={{ mt: 4 }} id="sign-up">Join Us</Heading>
     <Text variant='body' sx={{ mt: 2 }}>

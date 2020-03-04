@@ -35,5 +35,11 @@ module.exports = {
         trackingId: "UA-155120013-2",
       },
     },
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+        endpoint: 'https://heyjavascript.us10.list-manage.com/subscribe/post?u=afe416e377708ab72f9b24227&amp;id=53a3e086d5',
+      },
+    },
   ],
 }

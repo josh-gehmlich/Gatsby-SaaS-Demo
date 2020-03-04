@@ -24,7 +24,7 @@ export default {
   styles: {
     root: {
       fontFamily: 'body',
-      '-webkit-font-smoothing': 'antialiased',
+      WebkitFontSmoothing: 'antialiased',
       margin: 0,
       padding: 0,
     },
