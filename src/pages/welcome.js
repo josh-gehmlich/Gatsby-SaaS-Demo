@@ -64,7 +64,7 @@ const Welcome = () => (
         <Text variant="body">Formulate a hypothetical product solution to one of these pain points</Text>
       </li>
       <li>
-        <Text variant="body">Read <Link href="https://www.amazon.com/Mom-Test-customers-business-everyone/dp/1492180742">The Mom Test</Link> and validate your idea against it</Text>
+        <Text variant="body">Read <Link target="_blank" href="https://www.amazon.com/Mom-Test-customers-business-everyone/dp/1492180742">The Mom Test</Link> and validate your idea against it</Text>
       </li>
       <li>
         <Text variant="body">Repeat this process until you have a list of a few ideas, and pick the best one</Text>
