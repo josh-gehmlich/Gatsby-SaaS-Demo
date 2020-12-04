@@ -3,7 +3,7 @@
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Dolet Bizhev <doletbizhev.dev@gmail.com>",
   "dependencies": {
     "@emotion/core": "^10.0.28",
     "@mdx-js/react": "^1.5.7",

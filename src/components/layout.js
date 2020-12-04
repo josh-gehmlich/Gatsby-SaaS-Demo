@@ -48,7 +48,7 @@ const Layout = ({ children }) => {
           background: 'black',
         }}>
           <Text variant="body" sx={{ color: 'white' }}>
-            © {new Date().getFullYear()}, <Link sx={{ color: 'white' }} href="https://elliotbonneville.com">Elliot Bonneville</Link>
+            © {new Date().getFullYear()}, <Link sx={{ color: 'white' }} href="https://github.com/dbizhev">Dolet Bizhev</Link>
           </Text>
         </footer>
       </Box>
